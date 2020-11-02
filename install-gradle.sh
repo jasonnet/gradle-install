@@ -146,7 +146,7 @@ else
             fi
         else
             echo " The javac in the JAVA_HOME bin directory does not seem executable. Please"
-            echo " invesigate and invoke this script again."
+            echo " investigate and invoke this script again."
             echo ""
             exit 11
         fi
