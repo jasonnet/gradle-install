@@ -1,4 +1,4 @@
-# gradleinstall
+# gradle-install
 A little help installing Gradle quickly
 
 ## Details
@@ -12,13 +12,13 @@ that you are using Java 8 and in setting your environment variables appropraitel
 If you are willing to run this exactly as written, you can download and invoke it with a single command:
 
 ```
- bash <(curl -s https://raw.githubusercontent.com/jasonnet/gradleinstall/master/install-gradle.sh )
+ bash <(curl -s https://raw.githubusercontent.com/jasonnet/gradle-install/master/install-gradle.sh )
 ```
 
 Or if you have wget instead of curl, you can invoke:
 
 ```
- bash <(wget -q https://raw.githubusercontent.com/jasonnet/gradleinstall/master/install-gradle.sh -O - )
+ bash <(wget -q https://raw.githubusercontent.com/jasonnet/gradle-install/master/install-gradle.sh -O - )
 ```
 It is often considered insecure to invoke a remote script like this without first looking at it. If you are concerned,
 please use the "Custom Execution" method below
@@ -31,7 +31,7 @@ If you need to install another version, you can download the install-gradle.sh s
 command line with an argument specifying the version. For example:
 
 ```
-wget https://raw.githubusercontent.com/jasonnet/gradleinstall/master/install-gradle.sh
+wget https://raw.githubusercontent.com/jasonnet/gradle-install/master/install-gradle.sh
 chmod install_gradle.sh
 ./install_gradle.sh 6.7
 ```
